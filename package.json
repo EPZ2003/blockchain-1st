@@ -1,0 +1,48 @@
+{
+  "name": "blockchain-1st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app",
+    "lint": "eslint . --fix",
+    "start": "npx ts-node src/index.ts",
+    "build": "rm -rf build/ && prettier --write src/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPZ2003/blockchain-1st.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EPZ2003/blockchain-1st/issues"
+  },
+  "homepage": "https://github.com/EPZ2003/blockchain-1st#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "elliptic": "^6.6.1",
+    "eslint": "^9.22.0",
+    "express": "^4.21.2",
+    "flatted": "^3.3.3",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "uuid": "^11.1.0"
+  }
+}
